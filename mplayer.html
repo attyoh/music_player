@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>ミュージックプレーヤー</title>
+    <link rel="stylesheet" href="css/mplayer.css">
+  </head>
+  <body>
+    <div class="appframe">
+      <h1>ミュージックプレーヤー</h1>
+      <img src="images/pict_stop.png" alt="再生状態を表す画像">
+      <audio src="bgm/パステルハウス.mp3" controls></audio>
+      <p>聞きたい曲を選んでね！<a id="random" href="#">ランダム</a></p>
+      <ul>
+        <li data-file="bgm/パステルハウス.mp3" class="active">ミュージック1</li>
+        <li data-file="bgm/かえるのピアノ.mp3">ミュージック2</li>
+        <li data-file="bgm/昼下がり気分.mp3">ミュージック3</li>
+        <li data-file="bgm/野良猫は宇宙を目指した.mp3">ミュージック4</li>
+        <li data-file="bgm/2_23_AM.mp3">ミュージック5</li>
+        <li data-file="bgm/Morning.mp3">ミュージック6</li>
+      </ul>
+      <script src="js/mplayer.js" charset="utf-8"></script>
+    </div>
+  </body>
+</html>
